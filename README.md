@@ -21,3 +21,7 @@ Enter the following:
 	$ git clone https://github.com/cristianonicolai/jira-jacoco-example.git
 	$ cd jira-jacoco-example
 	$ mvn clean install
+
+## Sample report
+
+![JaCoCo Report](/jacoco-report.png)
