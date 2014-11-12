@@ -25,3 +25,11 @@ Enter the following:
 ## Sample report
 
 ![JaCoCo Report](/jacoco-report.png)
+
+## Checking coverage level
+
+When using JaCoCo you can also define a series of rules to difine quality criterias for your project.
+When running it via Maven, you can make sure that no rules are violated.
+In this project, I created a separated profile that runs all check. To run it, please execute:
+
+	$ mvn clean install -P jacoco-check
