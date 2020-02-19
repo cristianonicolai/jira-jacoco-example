@@ -2,3 +2,5 @@ target/
 .project
 .settings
 .classpath
+jira-jacoco-example.iml
+.idea/
